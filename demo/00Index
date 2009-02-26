@@ -1,0 +1,8 @@
+Chapter.1   About R objects, probability distributions, statistics and further topics
+Chapter.2   Uniform and non-uniform variate generation, including accept-reject
+Chapter.3   Monte Carlo integration, including importance sampling
+Chapter.4   Convergence control, effective sample size and acceleration techniques   
+Chapter.5   Stochastic optimization, stochastic approximation and the EM algorithm
+Chapter.6   Metropolis-Hastings algorithms, including calibration of the acceptance
+Chapter.7   Gibbs sampling, latent variables, slice sampling, hierarchical models, and improper priors
+Chapter.8   Convergence monitoring for MCMC methods, package coda, without amcmc
