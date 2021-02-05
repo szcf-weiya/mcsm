@@ -39,7 +39,7 @@ beta=rgamma(1,gamma+10*alpha)/(delta+sum(lambda))
 
 for (t in 2:T){
   lambda=rbind(lambda,rgamma(10,data+alpha)/(time+beta[t-1]))
-  beta=c(beta,rgamma(1,gamma+10*alpha)/(delta+sum(lambda[t])))
+  beta=c(beta,rgamma(1,gamma+10*alpha)/(delta+sum(lambda[t,])))
   }
 
 beta=beta[seq(1,T,by=M)]
